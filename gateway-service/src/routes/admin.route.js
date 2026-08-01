@@ -2,7 +2,7 @@ import express from "express";
 
 const router = express.Router();
 
-router.get("/api/v1/admin", (req, res) => {
+router.get("/admin", (req, res) => {
   res.status(200).json({ message: "Admin route is working!" });
 });
 
